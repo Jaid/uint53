@@ -2,8 +2,17 @@
   "name": "uint53",
   "version": "0.1.0",
   "type": "module",
+  "description": "Convert arbitrary-length hexadecimal strings into safe unsigned 53-bit integers.",
+  "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
+  "funding": "https://github.com/sponsors/Jaid",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaid/uint53.git"
+  },
   "exports": {
     ".": {
+      "types": "./src/main.ts",
       "default": "./src/main.ts"
     }
   },
@@ -11,10 +20,6 @@
     "#/*": "./*",
     "#root/*": "./*",
     "#src/*": "./src/*"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jaid/uint53.git"
   },
   "scripts": {
     "test": "bun test --max-concurrency 1 ./test"
