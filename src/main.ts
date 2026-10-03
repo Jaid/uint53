@@ -1,7 +1,6 @@
 const maxFullHexLength = 13
 const pow2_52 = 2 ** 52
-
-export const hexToUint53 = (hex: string): number => {
+const hexToUint53 = (hex: string) => {
   if (hex.length === 0) {
     return 0
   }
