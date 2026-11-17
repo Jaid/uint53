@@ -9,12 +9,6 @@
     "type": "git",
     "url": "git+https://github.com/Jaid/uint53.git"
   },
-  "exports": {
-    ".": {
-      "types": "./src/main.ts",
-      "default": "./src/main.ts"
-    }
-  },
   "imports": {
     "#src/*": "./src/*",
     "#/*": "./*",
@@ -22,7 +16,7 @@
   },
   "scripts": {
     "build": "build_lib --terser-strength max",
-    "test": "bun test --max-concurrency 1 ./test"
+    "test": "bun test ./test"
   },
   "devDependencies": {
     "eslint": "10.15.0",
