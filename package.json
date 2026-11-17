@@ -2,7 +2,7 @@
   "name": "uint53",
   "version": "0.1.0",
   "type": "module",
-  "description": "Converts hex strings to unsigned 53-bit integers",
+  "description": "Converts hex to unsigned 53-bit integers",
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
   "license": "MIT",
   "repository": {
