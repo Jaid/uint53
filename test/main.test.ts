@@ -1,6 +1,6 @@
 import {describe, expect, test} from 'bun:test'
 
-import {hexToUint53} from '../src/main.ts'
+import hexToUint53 from 'uint53'
 
 describe('hexToUint53', () => {
   test('all zeros', () => {
